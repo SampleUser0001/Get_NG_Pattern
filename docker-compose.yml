@@ -2,7 +2,9 @@ version: '3'
 services:
   python:
     build: .
-    container_name: python
+    container_name: get_ng_pattern
     volumes:
       - ./start.sh:/start.sh
       - ./app:/app
+    environment:
+      VIDEO_ID: pmTQqhpHAHs
