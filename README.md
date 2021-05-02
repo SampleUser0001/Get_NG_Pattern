@@ -5,8 +5,8 @@ Youtubeのコメント一覧を形態素解析し、NGにする形態素解析�
 ## 実行手順
 
 1. app/input配下に${動画ID}.jsonファイルを配置する。
-  - コメントは[GetYoutubeArchiveComment](https://github.com/SampleUser0001/GetYoutubeArchiveComment)で取得。
-  - ただしツールはYoutubeの規約上、非公開。
+    - コメントは[GetYoutubeArchiveComment](https://github.com/SampleUser0001/GetYoutubeArchiveComment)で取得。
+    - ただしツールはYoutubeの規約上、非公開。
 2. docker-compose.ymlのVIDEO_IDを${動画ID}に変更する。
 3. 下記実行
 ``` sh
